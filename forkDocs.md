@@ -19,6 +19,7 @@ Additionals that are not needed but highly recommended:
 - Prettier can help with readability. Link here https://prettier.io/
 - No need for react router if we are not switching pages, if partial redirect(navigate to a different part, then simple "a" tag can suffice our needs)
 - Routes should be separated from pages for better maintainability
+- To create mock data to finish app or test some stuff out, there a website https://dummyjson.com/ (so no need to rely too much on rapid api)
 
 Errors:
 - Mixing yarn and npm in the same repo can cause bugs => 
@@ -27,3 +28,4 @@ npm WARN EBADENGINE   package: 'react-loader-spinner@6.0.0-0',
 npm WARN EBADENGINE   required: { npm: 'please-use-yarn', yarn: '>= 1.19.1' },
 npm WARN EBADENGINE   current: { node: 'v18.14.0', npm: '9.3.1' }
 npm WARN EBADENGINE }
+
