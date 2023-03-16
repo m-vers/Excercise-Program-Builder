@@ -1,11 +1,11 @@
 SearchExercises.js
-- Wrapped setBodyParts in callback, fixing bug with string ("all") issue which broke the app.
+- Wrapped setBodyParts in callback, fixed bug with string ("all") issue which broke the app.
 - Fixed search functionality
 - Fixed search(call apis) on every keystroke
 
 HorizontalScrollBar.js is commented out, replaced with TestCarousel.js in utils (dont' forget to change SimilarExercises carousel)
 I removed previous carousel for reasons:
-- bad perfomance (useContext, Memos in they dist)
+- bad perfomance (useContext, Memos in their dist)
 - a lot of code to do
 - this one weight less
 
